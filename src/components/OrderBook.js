@@ -4,9 +4,9 @@ import {Grid, Row, Col } from 'react-bootstrap';
 import * as getters from '../utils/getters';
 import OrderTable from './internal/OrderTable';
 
-const askSize = {label : 'Ask Size', value : getters.getSize, sortable : false};
+const askSize = {label : 'Ask Size', value : getters.getSize, sortable : false, format: '0.00000000'};
 const askPrice = {label : 'Ask Price', value : getters.getPrice, sortable : true};
-const bidSize = {label : 'Bid Size', value : getters.getSize, sortable : false};
+const bidSize = {label : 'Bid Size', value : getters.getSize, sortable : false, format: '0.00000000'};
 const bidPrice = {label : 'Bid Price', value : getters.getPrice, sortable : true};
 
 export class OrderBook extends React.Component {

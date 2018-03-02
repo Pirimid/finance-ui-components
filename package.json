@@ -24,6 +24,7 @@
   "author": "Sandeep Joshi<Joshi.sandeep.d@gmail.com>",
   "dependencies": {
     "express": "^4.13.1",
+    "numeral": "^2.0.6",
     "object-assign": "4.1.0",
     "react": "16.2.0",
     "react-bootstrap": "^0.32.0",

@@ -27,5 +27,6 @@ Column Configuration
       label: 'Column Header',
       value: 'getter function for getting value from row object',
       sortable: 'true/false',
-      onClick: 'on click handler'
+      onClick: 'on click handler',
+      format: '0 a'
     }

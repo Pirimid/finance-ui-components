@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Grid, Row, Col } from 'react-bootstrap';
 import SortableIcons from './SortableIcons'
+import Numeral from 'numeral'
 
 export class OrderTable extends React.Component {
 
@@ -103,7 +104,7 @@ export class OrderTable extends React.Component {
           {items.map((object, rowIndex) => (
             <div key={rowIndex} className="card-panel-body-rows clearfix">
               <div className="pull-left" style={{width: this.state.askColWidth}}>
-                <span onClick={this.props.sizeColumn.onClick} >{this.props.sizeColumn.value(object)}</span>
+                <span onClick={this.props.sizeColumn.onClick} >{Numeral(this.props.sizeColumn.value(object)).format(this.props.sizeColumn.format)}</span>
               </div>
               <div className="pull-left" style={{width: this.state.askColWidth}}>
                 <span onClick={this.props.priceColumn.onClick} >{this.props.priceColumn.value(object)}</span>
