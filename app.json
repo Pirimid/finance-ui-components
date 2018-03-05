@@ -1,0 +1,20 @@
+{
+    "startup_app": {
+        "name": "Finance_UI_Components",
+        "url": "http://localhost:5555/index.html",
+        "uuid": "Finance_UI_Components",
+        "applicationIcon": "http://localhost:5555/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": true
+    },
+    "runtime": {
+        "arguments": "--remote-debugging-port=9090",
+        "version": "community"
+    },
+    "shortcut": {
+        "company": "Pirimid",
+        "description": "Finance UI Components",
+        "icon": "http://localhost:5555/favicon.ico",
+        "name": "Finance_UI_Components"
+    }
+}

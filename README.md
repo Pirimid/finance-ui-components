@@ -1,6 +1,14 @@
 # finance-ui-components
 Financial Trading UI components library
 
+# OpenFin integration
+
+  you can launch the same project uisng following commands in open fin
+
+      npm install
+      npm run build
+      npm run openFin      
+
 # Order book
 
 Configuration JSON
